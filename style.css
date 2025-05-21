@@ -1,0 +1,211 @@
+/* Basic Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f0f0f0;
+    background: url('back.jpg') no-repeat center center fixed;
+    background-size: cover;
+    line-height: 1.6;
+}
+/* Make ALL links white */
+a {
+    color: white;
+    text-decoration: none;
+
+}
+/* Button Container */
+.nav-buttons {
+  text-align: left;
+  margin: 25px 0;
+}
+.nav-buttons-assign {
+  text-align: center;
+  margin: 25px 0;
+}
+/* Base Button Style */
+.resume-btn, .home-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+/* Home Button - Green */
+.home-btn {
+  background-color: #4a6fa5;
+  border: 2px solid #3a5a80;
+}
+/* Hover Effects */
+.resume-btn:hover {
+  background-color: #3a5a80;
+}
+/* Make both buttons identical */
+.resume-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+  background-color: #4a6fa5;
+  border: 2px solid #3a5a80;
+}
+
+.resume-btn:hover{
+  background-color: #3a5a80;
+}
+
+.abt-assign{
+    text-align: centre;
+    font-display: centre;
+    
+}
+
+/* Content Containers */
+header, section{
+    background-color: rgba(40, 40, 40, 0.88);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border-left: 5px solid white;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    font-size: 2em;
+}
+
+header h2 {
+    color:  #4a6fa5;
+    margin: 10px 0;
+    font-weight: normal;
+}
+section h2{
+    color:  RED;
+    margin: 10px 0;
+    font-weight:bolder;
+}
+/* Social Links */
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: rgba(60, 60, 60, 0.9);
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid #4a6fa5;
+}
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+/* Social Links */
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: rgba(60, 60, 60, 0.9);
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid #4a6fa5;
+}
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+
+
+.social-link {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  display: inline-block;
+  transition: text-shadow 0.3s ease;
+}
+
+.social-link:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.social-link i {
+  margin-right: 8px;
+}
+
+.social-links li a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: text-shadow 0.3s ease;
+}
+
+.social-links li a i {
+  font-size: 28px;
+}
+
+.social-links li a:hover {
+  /* simple white glowing shadow on hover */
+  text-shadow: 0 0 8px rgb(237, 236, 241);
+  cursor: pointer;
+}
+.social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.social-links li a img {
+  
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-links li a:hover img {
+  transform: scale(1.2);
+  filter: brightness(1) drop-shadow(0 0 6px #ff0077);
+}
+footer{
+      background-color: rgba(40, 40, 40, 0.88);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border-left: 5px solid white;
+    display: -ms-inline-grid;
+    text-align: centre;
+}
